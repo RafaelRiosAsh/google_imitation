@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-size: 13px;
+}
+
+a:link, :visited, :hover{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.top{
+    margin-bottom: 120px;
+    text-align: right;
+}
+#gmail, #imagenes, #google_apps, #sign_in{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#google_apps_img{
+    margin-top: 10px;
+}
+.google_logo{
+    margin: auto;
+    width: 272px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+.search_bar{
+    margin:auto;
+    width: 484px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-color: solid #6e6e6e;
+}
+#search_box{
+    width: 484px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 20px;
+    
+}
+#search_bar: :active{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.search_buttons{
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: #6e6e6e;
+    font-size: 14px;
+    border-color: black;
+    
+}
+
+#random_country, #publicidad, #negocios, #sobre_google, #como_funciona{
+    margin-left: 20px;
+    color: #6e6e6e;
+}
+.footer #privacidad, .footer #condiciones, .footer #preferencias{
+    float: right;
+    color: #6e6e6e;
+    margin-left: 10px;
+    margin-right: 10px;
+}
